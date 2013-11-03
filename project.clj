@@ -10,7 +10,7 @@
   :profiles {:dev {
                      :dependencies [[midje "1.5.1"]
                                     ]
-                     :plugins [[lein-midje "3.1.1"]
+                     :plugins [[lein-midje "3.1.1"][lein-release "1.0.5"]
                                ]}
               }
 )
