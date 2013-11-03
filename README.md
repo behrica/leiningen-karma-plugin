@@ -1,25 +1,18 @@
 # lein-karma
 
-A Leiningen plugin to do many wonderful things.
+A Leiningen plugin to execute javscript tests with Karma (<http://karma-runner.github.io>)
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
-
-Put `[lein-karma "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-lein-karma 0.1.0-SNAPSHOT`.
-
-FIXME: Use this for project-level plugins:
-
 Put `[lein-karma "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
-
-FIXME: and add an example usage that actually makes sense:
 
     $ lein karma
 
+It assumes that "karma" executable is on the path and a configuration file exists in "resources/karma.conf.js".
+The stdout of the karma process is printed only after the karma run ends, no progress is printed during karma run.
+
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Carsten Behring
 
 Distributed under the Eclipse Public License, the same as Clojure.
