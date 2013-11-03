@@ -1,4 +1,4 @@
-(defproject lein-karma "0.1.0-SNAPSHOT"
+(defproject lein-karma "0.1.0"
   :description "A leiningen plugin for running javascript tests with karma"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
